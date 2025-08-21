@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #4CAF50; /* green header */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-style: italic;
+}
+
+/* ===== Sections ===== */
+section {
+  margin: 20px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* ===== Cards (flexbox layout) ===== */
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  text-align: center;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+}
+
+/* ===== Box Model Demo ===== */
+.box {
+  background-color: #e6f7ff;   /* light blue */
+  border: 3px solid #0099cc;   /* blue border */
+  padding: 20px;               /* inside spacing */
+  margin: 30px 0;              /* outside spacing */
+  border-radius: 4px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
